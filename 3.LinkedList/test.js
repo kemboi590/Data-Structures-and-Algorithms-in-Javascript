@@ -92,6 +92,8 @@ class LinkedList{
 
   }
 
+
+
   //removeAt
   removeAt(index, data){
     if(index < 0 && index > this.size()){
@@ -111,7 +113,10 @@ class LinkedList{
     if(current.next){
       current.next = current.next.next;
     }
+
   }
+
+
 
   //print
   print(){
@@ -130,7 +135,7 @@ const linkedlist = new LinkedList();
 linkedlist.addToFirst(10)
 linkedlist.addToFirst(11)
 linkedlist.addToFirst(12)
-linkedlist.addToFirst(13) 
+linkedlist.addToFirst(13)
 linkedlist.addToLast(1)
 linkedlist.addAt(0,2)
 linkedlist.removeAt(0)
